@@ -1,6 +1,6 @@
 ## MJML email template transformer
 
-### Installation
+## Installation
 
 ```bash
 $ npm install
@@ -12,7 +12,7 @@ or using yarn
 $ yarn
 ```
 
-### Running the app
+## Running the app
 
 ```bash
 $ yarn start
