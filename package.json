@@ -1,0 +1,26 @@
+{
+  "name": "mjml-templates",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build:watch": "babel templates --out-dir dist --watch",
+    "start": "npm run build:watch && nodemon ./dist/index.js --watch ./dist"
+  },
+  "dependencies": {
+    "mjml": "4.13.0",
+    "mjml-react": "2.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.21.0",
+    "@babel/core": "7.21.3",
+    "@babel/preset-react": "7.18.6",
+    "@types/mjml-react": "2.0.6",
+    "babel-plugin-inline-react-svg": "2.0.2",
+    "nodemon": "2.0.22"
+  }
+}
